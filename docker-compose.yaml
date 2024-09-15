@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    image: enshx/avito
+    ports:
+      - "8080:8080"
+volumes:
+  logs:
+    driver: local

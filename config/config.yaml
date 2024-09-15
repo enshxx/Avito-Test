@@ -1,0 +1,8 @@
+http:
+  address: '127.0.0.1:8080'
+
+log:
+  level: 'debug'
+
+postgres:
+  max_pool_size: 20
